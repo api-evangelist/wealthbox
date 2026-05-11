@@ -1,0 +1,56 @@
+aid: wealthbox
+name: Wealthbox
+description: >-
+  Wealthbox is a CRM platform built specifically for financial advisors,
+  offering contact management, task workflows, opportunities, projects, and
+  collaborative team features tailored to wealth management practices. The
+  platform's REST API supports both personal Access Tokens and OAuth 2.0 for
+  integrations, exposing CRUD endpoints for contacts, tasks, events, notes,
+  workflows, custom fields, and activity streams under the api.crmworkspace.com
+  base URL.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - CRM
+  - Financial Advisors
+  - Wealth Management
+  - Contact Management
+  - Workflow Automation
+  - SaaS
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis:
+  - aid: wealthbox:crm-api
+    name: Wealthbox CRM API
+    description: >-
+      REST API for managing contacts, tasks, events, opportunities, projects,
+      notes, workflows, custom fields, teams, and activity streams in
+      Wealthbox CRM. Supports personal Access Tokens (ACCESS_TOKEN header) or
+      OAuth 2.0 authorization code flow.
+    humanURL: https://dev.wealthbox.com
+    baseURL: https://api.crmworkspace.com
+    tags:
+      - CRM
+      - Financial Advisors
+      - Wealth Management
+    properties:
+      - type: Documentation
+        url: https://dev.wealthbox.com
+      - type: Authentication
+        url: https://dev.wealthbox.com/#authentication
+
+common:
+  - type: Website
+    url: https://www.wealthbox.com
+  - type: Documentation
+    url: https://dev.wealthbox.com
+  - type: Pricing
+    url: https://www.wealthbox.com/pricing
+  - type: Sign Up
+    url: https://app.crmworkspace.com/signup
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
