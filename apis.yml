@@ -43,6 +43,10 @@ apis:
         url: https://dev.wealthbox.com/#authentication
 
 common:
+  - type: GitHubOrganization
+    url: https://github.com/starburstlabs
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/wealthboxcrm
   - type: Website
     url: https://www.wealthbox.com
   - type: Documentation
