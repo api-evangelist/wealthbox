@@ -1,0 +1,458 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Wealthbox CRM API",
+    "version": "1.0.0"
+  },
+  "request": {
+    "auth": {
+      "type": "apikey",
+      "key": "ACCESS_TOKEN",
+      "value": "{{ACCESS_TOKEN}}",
+      "placement": "header"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Profile",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Retrieve login profile information",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.crmworkspace.com/v1/me"
+          },
+          "docs": "Retrieve login profile information"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "Activity",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Retrieve the activity stream",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.crmworkspace.com/v1/activity"
+          },
+          "docs": "Retrieve the activity stream"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "Contacts",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List all contacts",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.crmworkspace.com/v1/contacts"
+          },
+          "docs": "List all contacts"
+        },
+        {
+          "info": {
+            "name": "Create a new contact",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://api.crmworkspace.com/v1/contacts",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Create a new contact"
+        },
+        {
+          "info": {
+            "name": "Retrieve a contact",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.crmworkspace.com/v1/contacts/:id",
+            "params": [
+              {
+                "name": "id",
+                "value": "",
+                "type": "path",
+                "description": "Wealthbox resource identifier."
+              }
+            ]
+          },
+          "docs": "Retrieve a contact"
+        },
+        {
+          "info": {
+            "name": "Update a contact",
+            "type": "http"
+          },
+          "http": {
+            "method": "PUT",
+            "url": "https://api.crmworkspace.com/v1/contacts/:id",
+            "params": [
+              {
+                "name": "id",
+                "value": "",
+                "type": "path",
+                "description": "Wealthbox resource identifier."
+              }
+            ],
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Update a contact"
+        },
+        {
+          "info": {
+            "name": "Delete a contact",
+            "type": "http"
+          },
+          "http": {
+            "method": "DELETE",
+            "url": "https://api.crmworkspace.com/v1/contacts/:id",
+            "params": [
+              {
+                "name": "id",
+                "value": "",
+                "type": "path",
+                "description": "Wealthbox resource identifier."
+              }
+            ]
+          },
+          "docs": "Delete a contact"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "Tasks",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List all tasks",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.crmworkspace.com/v1/tasks"
+          },
+          "docs": "List all tasks"
+        },
+        {
+          "info": {
+            "name": "Create a new task",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://api.crmworkspace.com/v1/tasks",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Create a new task"
+        },
+        {
+          "info": {
+            "name": "Retrieve a task",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.crmworkspace.com/v1/tasks/:id",
+            "params": [
+              {
+                "name": "id",
+                "value": "",
+                "type": "path",
+                "description": "Wealthbox resource identifier."
+              }
+            ]
+          },
+          "docs": "Retrieve a task"
+        },
+        {
+          "info": {
+            "name": "Update a task",
+            "type": "http"
+          },
+          "http": {
+            "method": "PUT",
+            "url": "https://api.crmworkspace.com/v1/tasks/:id",
+            "params": [
+              {
+                "name": "id",
+                "value": "",
+                "type": "path",
+                "description": "Wealthbox resource identifier."
+              }
+            ],
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Update a task"
+        },
+        {
+          "info": {
+            "name": "Delete a task",
+            "type": "http"
+          },
+          "http": {
+            "method": "DELETE",
+            "url": "https://api.crmworkspace.com/v1/tasks/:id",
+            "params": [
+              {
+                "name": "id",
+                "value": "",
+                "type": "path",
+                "description": "Wealthbox resource identifier."
+              }
+            ]
+          },
+          "docs": "Delete a task"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "Events",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List all events",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.crmworkspace.com/v1/events"
+          },
+          "docs": "List all events"
+        },
+        {
+          "info": {
+            "name": "Create an event",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://api.crmworkspace.com/v1/events",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Create an event"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "Opportunities",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List all opportunities",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.crmworkspace.com/v1/opportunities"
+          },
+          "docs": "List all opportunities"
+        },
+        {
+          "info": {
+            "name": "Create an opportunity",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://api.crmworkspace.com/v1/opportunities",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Create an opportunity"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "Notes",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List all notes",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.crmworkspace.com/v1/notes"
+          },
+          "docs": "List all notes"
+        },
+        {
+          "info": {
+            "name": "Create a note",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://api.crmworkspace.com/v1/notes",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Create a note"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "Workflows",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List all workflows",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.crmworkspace.com/v1/workflows"
+          },
+          "docs": "List all workflows"
+        },
+        {
+          "info": {
+            "name": "Create a workflow",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://api.crmworkspace.com/v1/workflows",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Create a workflow"
+        },
+        {
+          "info": {
+            "name": "Retrieve a workflow",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.crmworkspace.com/v1/workflows/:id",
+            "params": [
+              {
+                "name": "id",
+                "value": "",
+                "type": "path",
+                "description": "Wealthbox resource identifier."
+              }
+            ]
+          },
+          "docs": "Retrieve a workflow"
+        },
+        {
+          "info": {
+            "name": "Delete a workflow",
+            "type": "http"
+          },
+          "http": {
+            "method": "DELETE",
+            "url": "https://api.crmworkspace.com/v1/workflows/:id",
+            "params": [
+              {
+                "name": "id",
+                "value": "",
+                "type": "path",
+                "description": "Wealthbox resource identifier."
+              }
+            ]
+          },
+          "docs": "Delete a workflow"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "Users",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List all users",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.crmworkspace.com/v1/users"
+          },
+          "docs": "List all users"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "Teams",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List all teams",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.crmworkspace.com/v1/teams"
+          },
+          "docs": "List all teams"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
