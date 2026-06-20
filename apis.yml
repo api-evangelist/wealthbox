@@ -9,7 +9,7 @@ description: >-
   workflows, custom fields, and activity streams under the api.crmworkspace.com
   base URL.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - CRM
   - Financial Advisors
