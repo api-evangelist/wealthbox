@@ -43,6 +43,10 @@ apis:
         url: https://dev.wealthbox.com/#authentication
 
 common:
+  - type: Authentication
+    url: authentication/wealthbox-authentication.yml
+  - type: OAuthScopes
+    url: scopes/wealthbox-scopes.yml
   - type: GitHubOrganization
     url: https://github.com/starburstlabs
   - type: LinkedIn
@@ -55,6 +59,8 @@ common:
     url: https://www.wealthbox.com/pricing
   - type: Signup
     url: https://app.crmworkspace.com/signup
+  - type: Blog
+    url: https://www.wealthbox.com/blog/feed/
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
