@@ -1,0 +1,29 @@
+generated: '2026-07-11'
+method: derived
+source: openapi/wealthbox-openapi.yml
+summary:
+  types:
+  - apiKey
+  - oauth2
+  api_key_in:
+  - header
+  oauth2_flows:
+  - authorizationCode
+schemes:
+- name: accessToken
+  type: apiKey
+  in: header
+  parameter: ACCESS_TOKEN
+  description: Personal Access Token issued from the Wealthbox account settings.
+  sources:
+  - openapi/wealthbox-openapi.yml
+- name: oauth2
+  type: oauth2
+  flows:
+  - flow: authorizationCode
+    authorizationUrl: https://app.crmworkspace.com/oauth/authorize
+    tokenUrl: https://app.crmworkspace.com/oauth/token
+    scopes: 2
+  description: OAuth 2.0 authorization code flow for third-party integrations.
+  sources:
+  - openapi/wealthbox-openapi.yml

@@ -1,0 +1,13 @@
+generated: '2026-07-11'
+method: searched
+probe: true
+source: https://www.wealthbox.com/solutions/trust-companies/
+url: https://www.wealthbox.com/solutions/trust-companies/
+certifications:
+- SOC 2
+- GDPR
+evidence:
+- source: https://www.wealthbox.com/solutions/trust-companies/
+  keywords:
+  - soc 2
+  - gdpr

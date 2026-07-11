@@ -43,6 +43,12 @@ apis:
         url: https://dev.wealthbox.com/#authentication
 
 common:
+  - type: TrustCenter
+    url: security/wealthbox-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/wealthbox-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/wealthbox-domain-security.yml
   - type: Authentication
     url: authentication/wealthbox-authentication.yml
   - type: OAuthScopes
