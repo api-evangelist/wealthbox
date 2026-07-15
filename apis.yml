@@ -43,6 +43,8 @@ apis:
         url: https://dev.wealthbox.com/#authentication
 
 common:
+  - type: AgenticAccess
+    url: agentic-access/wealthbox-agentic-access.yml
   - type: TrustCenter
     url: security/wealthbox-trust-center.yml
   - type: VulnerabilityDisclosure
