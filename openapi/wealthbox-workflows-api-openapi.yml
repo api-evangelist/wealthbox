@@ -1,0 +1,100 @@
+openapi: 3.1.0
+info:
+  title: Wealthbox CRM Activity Workflows API
+  description: 'REST API for Wealthbox, a CRM built for financial advisors. Provides CRUD
+
+    endpoints for contacts, tasks, events, opportunities, notes, workflows,
+
+    users, and teams. Authenticate either with a personal Access Token sent in
+
+    the `ACCESS_TOKEN` header, or with an OAuth 2.0 bearer token sent in the
+
+    standard `Authorization: Bearer ...` header.
+
+    '
+  version: 1.0.0
+  contact:
+    name: Wealthbox Developers
+    url: https://dev.wealthbox.com
+  license:
+    name: Proprietary
+servers:
+- url: https://api.crmworkspace.com/v1
+  description: Wealthbox CRM production API
+security:
+- accessToken: []
+- oauth2: []
+tags:
+- name: Workflows
+paths:
+  /workflows:
+    get:
+      tags:
+      - Workflows
+      summary: List all workflows
+      operationId: listWorkflows
+      responses:
+        '200':
+          description: A list of workflows.
+    post:
+      tags:
+      - Workflows
+      summary: Create a workflow
+      operationId: createWorkflow
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '201':
+          description: Workflow created.
+  /workflows/{id}:
+    parameters:
+    - $ref: '#/components/parameters/IdPath'
+    get:
+      tags:
+      - Workflows
+      summary: Retrieve a workflow
+      operationId: getWorkflow
+      responses:
+        '200':
+          description: A workflow record.
+    delete:
+      tags:
+      - Workflows
+      summary: Delete a workflow
+      operationId: deleteWorkflow
+      responses:
+        '204':
+          description: Workflow deleted.
+components:
+  parameters:
+    IdPath:
+      in: path
+      name: id
+      required: true
+      schema:
+        type: integer
+        format: int64
+      description: Wealthbox resource identifier.
+  securitySchemes:
+    accessToken:
+      type: apiKey
+      in: header
+      name: ACCESS_TOKEN
+      description: Personal Access Token issued from the Wealthbox account settings.
+    oauth2:
+      type: oauth2
+      description: OAuth 2.0 authorization code flow for third-party integrations.
+      flows:
+        authorizationCode:
+          authorizationUrl: https://app.crmworkspace.com/oauth/authorize
+          tokenUrl: https://app.crmworkspace.com/oauth/token
+          scopes:
+            login: Access basic profile information
+            data: Read and write CRM data
+externalDocs:
+  description: Wealthbox API Reference
+  url: https://dev.wealthbox.com

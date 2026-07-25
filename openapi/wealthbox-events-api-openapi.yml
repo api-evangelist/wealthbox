@@ -1,0 +1,72 @@
+openapi: 3.1.0
+info:
+  title: Wealthbox CRM Activity Events API
+  description: 'REST API for Wealthbox, a CRM built for financial advisors. Provides CRUD
+
+    endpoints for contacts, tasks, events, opportunities, notes, workflows,
+
+    users, and teams. Authenticate either with a personal Access Token sent in
+
+    the `ACCESS_TOKEN` header, or with an OAuth 2.0 bearer token sent in the
+
+    standard `Authorization: Bearer ...` header.
+
+    '
+  version: 1.0.0
+  contact:
+    name: Wealthbox Developers
+    url: https://dev.wealthbox.com
+  license:
+    name: Proprietary
+servers:
+- url: https://api.crmworkspace.com/v1
+  description: Wealthbox CRM production API
+security:
+- accessToken: []
+- oauth2: []
+tags:
+- name: Events
+paths:
+  /events:
+    get:
+      tags:
+      - Events
+      summary: List all events
+      operationId: listEvents
+      responses:
+        '200':
+          description: A list of events.
+    post:
+      tags:
+      - Events
+      summary: Create an event
+      operationId: createEvent
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '201':
+          description: Event created.
+components:
+  securitySchemes:
+    accessToken:
+      type: apiKey
+      in: header
+      name: ACCESS_TOKEN
+      description: Personal Access Token issued from the Wealthbox account settings.
+    oauth2:
+      type: oauth2
+      description: OAuth 2.0 authorization code flow for third-party integrations.
+      flows:
+        authorizationCode:
+          authorizationUrl: https://app.crmworkspace.com/oauth/authorize
+          tokenUrl: https://app.crmworkspace.com/oauth/token
+          scopes:
+            login: Access basic profile information
+            data: Read and write CRM data
+externalDocs:
+  description: Wealthbox API Reference
+  url: https://dev.wealthbox.com
