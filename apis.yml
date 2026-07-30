@@ -9,7 +9,19 @@ description: >-
   workflows, custom fields, and activity streams under the api.crmworkspace.com
   base URL.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wealthbox.png
 tags:
   - CRM
   - Financial Advisors
@@ -23,25 +35,123 @@ created: '2026-05-11'
 modified: '2026-05-11'
 specificationVersion: '0.19'
 apis:
-  - aid: wealthbox:crm-api
-    name: Wealthbox CRM API
-    description: >-
-      REST API for managing contacts, tasks, events, opportunities, projects,
-      notes, workflows, custom fields, teams, and activity streams in
-      Wealthbox CRM. Supports personal Access Tokens (ACCESS_TOKEN header) or
-      OAuth 2.0 authorization code flow.
-    humanURL: https://dev.wealthbox.com
-    baseURL: https://api.crmworkspace.com
-    tags:
-      - CRM
-      - Financial Advisors
-      - Wealth Management
-    properties:
-      - type: Documentation
-        url: https://dev.wealthbox.com
-      - type: Authentication
-        url: https://dev.wealthbox.com/#authentication
-
+- aid: wealthbox:crm-api
+  name: Wealthbox CRM API
+  description: >-
+    REST API for managing contacts, tasks, events, opportunities, projects, notes, workflows, custom fields,
+    teams, and activity streams in Wealthbox CRM. Supports personal Access Tokens (ACCESS_TOKEN header)
+    or OAuth 2.0 authorization code flow.
+  humanURL: https://dev.wealthbox.com
+  baseURL: https://api.crmworkspace.com
+  tags:
+  - CRM
+  - Financial Advisors
+  - Wealth Management
+  properties:
+  - type: Documentation
+    url: https://dev.wealthbox.com
+  - type: Authentication
+    url: https://dev.wealthbox.com/#authentication
+- aid: wealthbox:wealthbox-activity-api
+  name: Wealthbox Activity API
+  description: The Activity API from Wealthbox — 1 operation(s) for activity.
+  humanURL: https://dev.wealthbox.com
+  baseURL: https://api.crmworkspace.com
+  tags:
+  - Activity
+  properties:
+  - type: OpenAPI
+    url: openapi/wealthbox-activity-api-openapi.yml
+- aid: wealthbox:wealthbox-contacts-api
+  name: Wealthbox Contacts API
+  description: The Contacts API from Wealthbox — 2 operation(s) for contacts.
+  humanURL: https://dev.wealthbox.com
+  baseURL: https://api.crmworkspace.com
+  tags:
+  - Contacts
+  properties:
+  - type: OpenAPI
+    url: openapi/wealthbox-contacts-api-openapi.yml
+- aid: wealthbox:wealthbox-events-api
+  name: Wealthbox Events API
+  description: The Events API from Wealthbox — 1 operation(s) for events.
+  humanURL: https://dev.wealthbox.com
+  baseURL: https://api.crmworkspace.com
+  tags:
+  - Events
+  properties:
+  - type: OpenAPI
+    url: openapi/wealthbox-events-api-openapi.yml
+- aid: wealthbox:wealthbox-notes-api
+  name: Wealthbox Notes API
+  description: The Notes API from Wealthbox — 1 operation(s) for notes.
+  humanURL: https://dev.wealthbox.com
+  baseURL: https://api.crmworkspace.com
+  tags:
+  - Notes
+  properties:
+  - type: OpenAPI
+    url: openapi/wealthbox-notes-api-openapi.yml
+- aid: wealthbox:wealthbox-opportunities-api
+  name: Wealthbox Opportunities API
+  description: The Opportunities API from Wealthbox — 1 operation(s) for opportunities.
+  humanURL: https://dev.wealthbox.com
+  baseURL: https://api.crmworkspace.com
+  tags:
+  - Opportunities
+  properties:
+  - type: OpenAPI
+    url: openapi/wealthbox-opportunities-api-openapi.yml
+- aid: wealthbox:wealthbox-profile-api
+  name: Wealthbox Profile API
+  description: The Profile API from Wealthbox — 1 operation(s) for profile.
+  humanURL: https://dev.wealthbox.com
+  baseURL: https://api.crmworkspace.com
+  tags:
+  - Profile
+  properties:
+  - type: OpenAPI
+    url: openapi/wealthbox-profile-api-openapi.yml
+- aid: wealthbox:wealthbox-tasks-api
+  name: Wealthbox Tasks API
+  description: The Tasks API from Wealthbox — 2 operation(s) for tasks.
+  humanURL: https://dev.wealthbox.com
+  baseURL: https://api.crmworkspace.com
+  tags:
+  - Tasks
+  properties:
+  - type: OpenAPI
+    url: openapi/wealthbox-tasks-api-openapi.yml
+- aid: wealthbox:wealthbox-teams-api
+  name: Wealthbox Teams API
+  description: The Teams API from Wealthbox — 1 operation(s) for teams.
+  humanURL: https://dev.wealthbox.com
+  baseURL: https://api.crmworkspace.com
+  tags:
+  - Teams
+  properties:
+  - type: OpenAPI
+    url: openapi/wealthbox-teams-api-openapi.yml
+- aid: wealthbox:wealthbox-users-api
+  name: Wealthbox Users API
+  description: The Users API from Wealthbox — 1 operation(s) for users.
+  humanURL: https://dev.wealthbox.com
+  baseURL: https://api.crmworkspace.com
+  tags:
+  - Users
+  properties:
+  - type: OpenAPI
+    url: openapi/wealthbox-users-api-openapi.yml
+- aid: wealthbox:wealthbox-workflows-api
+  name: Wealthbox Workflows API
+  description: The Workflows API from Wealthbox — 2 operation(s) for workflows.
+  humanURL: https://dev.wealthbox.com
+  baseURL: https://api.crmworkspace.com
+  tags:
+  - Workflows
+  properties:
+  - type: OpenAPI
+    url: openapi/wealthbox-workflows-api-openapi.yml
 common:
   - type: AgenticAccess
     url: agentic-access/wealthbox-agentic-access.yml
