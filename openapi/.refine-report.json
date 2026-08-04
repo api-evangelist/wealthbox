@@ -1,0 +1,32 @@
+{
+  "provider": "wealthbox",
+  "sources": [
+    "wealthbox-activity-api-openapi.yml",
+    "wealthbox-contacts-api-openapi.yml",
+    "wealthbox-events-api-openapi.yml",
+    "wealthbox-notes-api-openapi.yml",
+    "wealthbox-opportunities-api-openapi.yml",
+    "wealthbox-profile-api-openapi.yml",
+    "wealthbox-tasks-api-openapi.yml",
+    "wealthbox-teams-api-openapi.yml",
+    "wealthbox-users-api-openapi.yml",
+    "wealthbox-workflows-api-openapi.yml"
+  ],
+  "outputs": [
+    "wealthbox-activity-api-openapi.yml",
+    "wealthbox-contacts-api-openapi.yml",
+    "wealthbox-events-api-openapi.yml",
+    "wealthbox-notes-api-openapi.yml",
+    "wealthbox-opportunities-api-openapi.yml",
+    "wealthbox-profile-api-openapi.yml",
+    "wealthbox-tasks-api-openapi.yml",
+    "wealthbox-teams-api-openapi.yml",
+    "wealthbox-users-api-openapi.yml",
+    "wealthbox-workflows-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
