@@ -1,0 +1,37 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Wealthbox CRM Activity API",
+    "version": "1.0.0"
+  },
+  "request": {
+    "auth": {
+      "type": "apikey",
+      "key": "ACCESS_TOKEN",
+      "value": "{{ACCESS_TOKEN}}",
+      "placement": "header"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Activity",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Retrieve the activity stream",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.crmworkspace.com/v1/activity"
+          },
+          "docs": "Retrieve the activity stream"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

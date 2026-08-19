@@ -1,0 +1,114 @@
+{
+  "item": [
+    {
+      "id": "2e781c9a-ed25-43df-872b-f86a123dcc1c",
+      "name": "Teams",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "459eca88-9b01-451a-b824-d39840cb0172",
+          "name": "List all teams",
+          "request": {
+            "name": "List all teams",
+            "description": {},
+            "url": {
+              "path": [
+                "teams"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "02e54853-994e-4fb8-8a53-9f9be0f9ecc4",
+              "name": "A list of teams.",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "teams"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "ACCESS_TOKEN",
+                    "value": "<API Key>"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://api.crmworkspace.com/v1",
+      "key": "baseUrl"
+    }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "key": "key",
+        "value": "ACCESS_TOKEN"
+      },
+      {
+        "key": "value",
+        "value": "{{apiKey}}"
+      },
+      {
+        "key": "in",
+        "value": "header"
+      }
+    ]
+  },
+  "info": {
+    "_postman_id": "42f67972-a3cd-4d7c-a8b7-b4805de81e20",
+    "name": "Wealthbox CRM Activity Teams API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "REST API for Wealthbox, a CRM built for financial advisors. Provides CRUD\nendpoints for contacts, tasks, events, opportunities, notes, workflows,\nusers, and teams. Authenticate either with a personal Access Token sent in\nthe `ACCESS_TOKEN` header, or with an OAuth 2.0 bearer token sent in the\nstandard `Authorization: Bearer ...` header.\n\n\nContact Support:\n Name: Wealthbox Developers",
+      "type": "text/plain"
+    }
+  }
+}

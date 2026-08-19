@@ -1,0 +1,37 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Wealthbox CRM Activity Profile API",
+    "version": "1.0.0"
+  },
+  "request": {
+    "auth": {
+      "type": "apikey",
+      "key": "ACCESS_TOKEN",
+      "value": "{{ACCESS_TOKEN}}",
+      "placement": "header"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Profile",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Retrieve login profile information",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.crmworkspace.com/v1/me"
+          },
+          "docs": "Retrieve login profile information"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
