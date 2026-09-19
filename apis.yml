@@ -129,6 +129,8 @@ apis:
   humanURL: https://dev.wealthbox.com
   baseURL: https://api.crmworkspace.com
   tags:
+  - Profiles
+  tags_raw:
   - Profile
   properties:
   - type: OpenAPI
