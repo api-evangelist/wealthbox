@@ -1,16 +1,7 @@
 {
   "provider": "wealthbox",
   "sources": [
-    "wealthbox-activity-api-openapi.yml",
-    "wealthbox-contacts-api-openapi.yml",
-    "wealthbox-events-api-openapi.yml",
-    "wealthbox-notes-api-openapi.yml",
-    "wealthbox-opportunities-api-openapi.yml",
-    "wealthbox-profile-api-openapi.yml",
-    "wealthbox-tasks-api-openapi.yml",
-    "wealthbox-teams-api-openapi.yml",
-    "wealthbox-users-api-openapi.yml",
-    "wealthbox-workflows-api-openapi.yml"
+    "_original/wealthbox-openapi.yml"
   ],
   "outputs": [
     "wealthbox-activity-api-openapi.yml",
@@ -27,6 +18,21 @@
   "archived": [],
   "errors": [],
   "warnings": [],
-  "notes": [],
-  "skipped": []
+  "notes": [
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "wealthbox-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "apis.yml register: already-registered"
+  ],
+  "skipped": [
+    "wealthbox-activity-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "wealthbox-contacts-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "wealthbox-events-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "wealthbox-notes-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "wealthbox-opportunities-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "wealthbox-profile-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "wealthbox-tasks-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "wealthbox-teams-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "wealthbox-users-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "wealthbox-workflows-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }

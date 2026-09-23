@@ -1,0 +1,29 @@
+# Front Door AI Index — wealthbox — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: wealthbox
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.wealthbox.com
+  final_host: www.wealthbox.com
+  ownership: own
+  owner: wealthbox
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 21
+  host_score: 21
+  density: 12.49
+  words: 1682
+  tiers:
+    agentic: 5
+    core: 16
+    model: 0
+  ambiguous: 5
+  top_terms:
+    AI: 16
+    agent: 4
+    AI agent: 3
+    AI assistant: 2
+    intelligence: 1
