@@ -39,7 +39,7 @@ tags:
   - Financial Advisors
   - Wealth Management
   - Contact Management
-  - Workflow-Automation
+  - Workflow Automation
   - Software-as-a-Service
 tags_raw:
   - CRM
@@ -48,6 +48,7 @@ tags_raw:
   - Contact Management
   - Workflow Automation
   - SaaS
+  - Workflow-Automation
 url: >-
   https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/apis.yml
 created: '2026-05-11'
