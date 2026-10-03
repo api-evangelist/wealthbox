@@ -82,6 +82,15 @@ paths:
         '204':
           description: Contact deleted.
 components:
+  parameters:
+    IdPath:
+      in: path
+      name: id
+      required: true
+      schema:
+        type: integer
+        format: int64
+      description: Wealthbox resource identifier.
   schemas:
     Contact:
       type: object
@@ -112,15 +121,6 @@ components:
                 type: string
               kind:
                 type: string
-  parameters:
-    IdPath:
-      in: path
-      name: id
-      required: true
-      schema:
-        type: integer
-        format: int64
-      description: Wealthbox resource identifier.
   securitySchemes:
     accessToken:
       type: apiKey
