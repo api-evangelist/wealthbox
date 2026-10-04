@@ -82,15 +82,6 @@ paths:
         '204':
           description: Task deleted.
 components:
-  parameters:
-    IdPath:
-      in: path
-      name: id
-      required: true
-      schema:
-        type: integer
-        format: int64
-      description: Wealthbox resource identifier.
   schemas:
     Task:
       type: object
@@ -113,6 +104,15 @@ components:
                 type: integer
               type:
                 type: string
+  parameters:
+    IdPath:
+      in: path
+      name: id
+      required: true
+      schema:
+        type: integer
+        format: int64
+      description: Wealthbox resource identifier.
   securitySchemes:
     accessToken:
       type: apiKey
