@@ -183,6 +183,9 @@ apis:
   - type: OpenAPI
     url: openapi/wealthbox-workflows-api-openapi.yml
 common:
+  - type: CapabilityMap
+    url: capabilities/wealthbox-capability-edges.yml
+    name: Wealthbox Business Capability Map
   - type: AgenticAccess
     url: agentic-access/wealthbox-agentic-access.yml
   - type: TrustCenter
