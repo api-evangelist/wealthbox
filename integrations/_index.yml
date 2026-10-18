@@ -477,3 +477,219 @@
     builder: Pipedream repo (component)
   status: not-a-workflow
   arazzo: null
+- slug: wealthbox-anthropic
+  label: Anthropic
+  partner: anthropic
+  partner_name: Anthropic
+  category: Wealth-management CRM integration
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  evidence: https://www.wealthbox.com/integrations/anthropic/
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Anthropic
+    app_slug: anthropic
+    matched_domain: anthropic.com
+    matched_by: domain
+    identity: wikidata Q116758847 'Anthropic' P856 https://www.anthropic.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  status: not-a-workflow
+  arazzo: null
+- slug: wealthbox-charles-schwab
+  label: Charles Schwab
+  partner: charles-schwab
+  partner_name: Charles Schwab
+  category: Wealth-management CRM integration
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  evidence: https://www.wealthbox.com/integrations/charles-schwab/
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Charles Schwab
+    app_slug: charles-schwab
+    matched_domain: schwab.com
+    matched_by: domain
+    identity: wikidata Q1066028 'Charles Schwab Corporation' P856 https://www.schwab.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  status: not-a-workflow
+  arazzo: null
+- slug: wealthbox-docusign
+  label: DocuSign
+  partner: docusign
+  partner_name: DocuSign
+  category: Wealth-management CRM integration
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  evidence: https://www.wealthbox.com/integrations/docusign/
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: DocuSign
+    app_slug: docusign
+    matched_domain: docusign.com
+    matched_by: domain
+    identity: wikidata Q5287613 'Docusign' P856 http://www.docusign.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  status: not-a-workflow
+  arazzo: null
+- slug: wealthbox-envestnet
+  label: Envestnet
+  partner: envestnet
+  partner_name: Envestnet
+  category: Wealth-management CRM integration
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  evidence: https://www.wealthbox.com/integrations/envestnet/
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Envestnet
+    app_slug: envestnet
+    matched_domain: envestnet.com
+    matched_by: domain
+    identity: wikidata Q24915031 'Envestnet' P856 https://www.envestnet.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  status: not-a-workflow
+  arazzo: null
+- slug: wealthbox-evernote
+  label: Evernote
+  partner: evernote
+  partner_name: Evernote
+  category: Wealth-management CRM integration
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  evidence: https://www.wealthbox.com/integrations/evernote/
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Evernote
+    app_slug: evernote
+    matched_domain: evernote.com
+    matched_by: domain
+    identity: wikidata Q430526 'Evernote' P856 https://evernote.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  status: not-a-workflow
+  arazzo: null
+- slug: wealthbox-google-mail
+  label: Google Mail
+  partner: google
+  partner_name: Google Mail
+  category: Wealth-management CRM integration
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  evidence: https://www.wealthbox.com/integrations/google-mail/
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Google Mail
+    app_slug: google-mail
+    matched_domain: google.com
+    matched_by: domain+name-among-holders
+    identity: wikidata Q9334 'Gmail' P856 https://mail.google.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  status: not-a-workflow
+  arazzo: null
+- slug: wealthbox-google-calendar
+  label: Google Calendar
+  partner: google-calendar
+  partner_name: Google Calendar
+  category: Wealth-management CRM integration
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  evidence: https://www.wealthbox.com/integrations/google-calendar/
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Google Calendar
+    app_slug: google-calendar
+    matched_domain: google.com
+    matched_by: domain+name-among-holders
+    identity: wikidata Q223563 'Google Calendar' P856 https://calendar.google.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  status: not-a-workflow
+  arazzo: null
+- slug: wealthbox-google-chrome
+  label: Google Chrome
+  partner: google-chrome
+  partner_name: Google Chrome
+  category: Wealth-management CRM integration
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  evidence: https://www.wealthbox.com/integrations/google-chrome/
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Google Chrome
+    app_slug: google-chrome
+    matched_domain: google.com
+    matched_by: domain+name-among-holders
+    identity: wikidata Q777 'Google Chrome' P856 https://www.google.com/chrome/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  status: not-a-workflow
+  arazzo: null

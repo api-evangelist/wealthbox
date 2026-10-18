@@ -7,6 +7,8 @@ checked:
 - https://github.com/PipedreamHQ/pipedream/tree/94800dd6de6640b942c65ea7ee655f71ac56d438/components/
 - https://monid.ai/tools/wealthbox
 - https://n8n.io/integrations/wealthbox/
+- https://reports.adviserinfo.sec.gov/reports/CompilationReports/IA_FIRM_SEC_Feed_10_17_2026.xml.gz
+- https://www.wealthbox.com/wp-json/wp/v2/integrations?per_page=100&page=1
 - https://zapier.com/api/v4/apps/
 - https://zapier.com/apps/wealthbox/integrations
 summary: null
@@ -446,6 +448,370 @@ edges:
     builder: Pipedream repo (component)
   detected_by: sweep-workflow-automation.py
   first_seen: '2026-10-15'
+- partner_name: Anthropic
+  partner: anthropic
+  partner_match: domain
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  relationship: platform-app
+  direction: unknown
+  evidence: https://www.wealthbox.com/integrations/anthropic/
+  category: Wealth-management CRM integration
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Anthropic
+    app_slug: anthropic
+    matched_domain: anthropic.com
+    matched_by: domain
+    identity: wikidata Q116758847 'Anthropic' P856 https://www.anthropic.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  detected_by: sweep-asset-management.py
+  first_seen: '2026-10-18'
+- partner_name: Calendly
+  partner: calendly
+  partner_match: domain
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  relationship: platform-app
+  direction: unknown
+  evidence: https://www.wealthbox.com/integrations/calendly/
+  category: Wealth-management CRM integration
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Calendly
+    app_slug: calendly
+    matched_domain: calendly.com
+    matched_by: domain
+    identity: wikidata Q111946817 'Calendly' P856 https://calendly.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  detected_by: sweep-asset-management.py
+  first_seen: '2026-10-18'
+- partner_name: Charles Schwab
+  partner: charles-schwab
+  partner_match: domain
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  relationship: platform-app
+  direction: unknown
+  evidence: https://www.wealthbox.com/integrations/charles-schwab/
+  category: Wealth-management CRM integration
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Charles Schwab
+    app_slug: charles-schwab
+    matched_domain: schwab.com
+    matched_by: domain
+    identity: wikidata Q1066028 'Charles Schwab Corporation' P856 https://www.schwab.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  detected_by: sweep-asset-management.py
+  first_seen: '2026-10-18'
+- partner_name: Constant Contact
+  partner: constant-contact
+  partner_match: domain
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  relationship: platform-app
+  direction: unknown
+  evidence: https://www.wealthbox.com/integrations/constant-contact/
+  category: Wealth-management CRM integration
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Constant Contact
+    app_slug: constant-contact
+    matched_domain: constantcontact.com
+    matched_by: domain
+    identity: wikidata Q5163620 'Constant Contact' P856 http://www.constantcontact.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  detected_by: sweep-asset-management.py
+  first_seen: '2026-10-18'
+- partner_name: DocuSign
+  partner: docusign
+  partner_match: domain
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  relationship: platform-app
+  direction: unknown
+  evidence: https://www.wealthbox.com/integrations/docusign/
+  category: Wealth-management CRM integration
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: DocuSign
+    app_slug: docusign
+    matched_domain: docusign.com
+    matched_by: domain
+    identity: wikidata Q5287613 'Docusign' P856 http://www.docusign.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  detected_by: sweep-asset-management.py
+  first_seen: '2026-10-18'
+- partner_name: Dropbox
+  partner: dropbox
+  partner_match: domain
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  relationship: platform-app
+  direction: unknown
+  evidence: https://www.wealthbox.com/integrations/dropbox/
+  category: Wealth-management CRM integration
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Dropbox
+    app_slug: dropbox
+    matched_domain: dropbox.com
+    matched_by: domain
+    identity: wikidata Q142539 'Dropbox' P856 https://www.dropbox.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  detected_by: sweep-asset-management.py
+  first_seen: '2026-10-18'
+- partner_name: Egnyte
+  partner: egnyte
+  partner_match: domain
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  relationship: platform-app
+  direction: unknown
+  evidence: https://www.wealthbox.com/integrations/egnyte/
+  category: Wealth-management CRM integration
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Egnyte
+    app_slug: egnyte
+    matched_domain: egnyte.com
+    matched_by: domain
+    identity: wikidata Q5348136 'Egnyte' P856 http://www.egnyte.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  detected_by: sweep-asset-management.py
+  first_seen: '2026-10-18'
+- partner_name: Envestnet
+  partner: envestnet
+  partner_match: domain
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  relationship: platform-app
+  direction: unknown
+  evidence: https://www.wealthbox.com/integrations/envestnet/
+  category: Wealth-management CRM integration
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Envestnet
+    app_slug: envestnet
+    matched_domain: envestnet.com
+    matched_by: domain
+    identity: wikidata Q24915031 'Envestnet' P856 https://www.envestnet.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  detected_by: sweep-asset-management.py
+  first_seen: '2026-10-18'
+- partner_name: Evernote
+  partner: evernote
+  partner_match: domain
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  relationship: platform-app
+  direction: unknown
+  evidence: https://www.wealthbox.com/integrations/evernote/
+  category: Wealth-management CRM integration
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Evernote
+    app_slug: evernote
+    matched_domain: evernote.com
+    matched_by: domain
+    identity: wikidata Q430526 'Evernote' P856 https://evernote.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  detected_by: sweep-asset-management.py
+  first_seen: '2026-10-18'
+- partner_name: Formstack
+  partner: formstack
+  partner_match: domain
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  relationship: platform-app
+  direction: unknown
+  evidence: https://www.wealthbox.com/integrations/formstack/
+  category: Wealth-management CRM integration
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Formstack
+    app_slug: formstack
+    matched_domain: formstack.com
+    matched_by: domain
+    identity: wikidata Q16838881 'Formstack' P856 https://www.formstack.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  detected_by: sweep-asset-management.py
+  first_seen: '2026-10-18'
+- partner_name: Google Mail
+  partner: google
+  partner_match: domain+name-among-holders
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  relationship: platform-app
+  direction: unknown
+  evidence: https://www.wealthbox.com/integrations/google-mail/
+  category: Wealth-management CRM integration
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Google Mail
+    app_slug: google-mail
+    matched_domain: google.com
+    matched_by: domain+name-among-holders
+    identity: wikidata Q9334 'Gmail' P856 https://mail.google.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  detected_by: sweep-asset-management.py
+  first_seen: '2026-10-18'
+- partner_name: Google Calendar
+  partner: google-calendar
+  partner_match: domain+name-among-holders
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  relationship: platform-app
+  direction: unknown
+  evidence: https://www.wealthbox.com/integrations/google-calendar/
+  category: Wealth-management CRM integration
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Google Calendar
+    app_slug: google-calendar
+    matched_domain: google.com
+    matched_by: domain+name-among-holders
+    identity: wikidata Q223563 'Google Calendar' P856 https://calendar.google.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  detected_by: sweep-asset-management.py
+  first_seen: '2026-10-18'
+- partner_name: Google Chrome
+  partner: google-chrome
+  partner_match: domain+name-among-holders
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  relationship: platform-app
+  direction: unknown
+  evidence: https://www.wealthbox.com/integrations/google-chrome/
+  category: Wealth-management CRM integration
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Google Chrome
+    app_slug: google-chrome
+    matched_domain: google.com
+    matched_by: domain+name-among-holders
+    identity: wikidata Q777 'Google Chrome' P856 https://www.google.com/chrome/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  detected_by: sweep-asset-management.py
+  first_seen: '2026-10-18'
+- partner_name: Google Drive
+  partner: google-drive
+  partner_match: domain+name-among-holders
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  relationship: platform-app
+  direction: unknown
+  evidence: https://www.wealthbox.com/integrations/google-drive/
+  category: Wealth-management CRM integration
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Google Drive
+    app_slug: google-drive
+    matched_domain: google.com
+    matched_by: domain+name-among-holders
+    identity: wikidata Q9340 'Google Drive' P856 https://drive.google.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  detected_by: sweep-asset-management.py
+  first_seen: '2026-10-18'
 templates:
 - title: Add new OnceHub bookings as new events in Wealthbox CRM
   url: https://zapier.com/apps/oncehub/integrations/wealthbox/11868/add-new-oncehub-bookings-as-new-events-in-wealthbox-crm
