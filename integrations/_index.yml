@@ -14,6 +14,7 @@
   evidence: https://zapier.com/apps/oncehub/integrations/wealthbox/11868/add-new-oncehub-bookings-as-new-events-in-wealthbox-crm
   template: https://zapier.com/apps/oncehub/integrations/wealthbox/11868/add-new-oncehub-bookings-as-new-events-in-wealthbox-crm
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: wealthbox-add-new-calendly-events-to-wealthbox
@@ -28,6 +29,7 @@
   evidence: https://zapier.com/apps/calendly/integrations/wealthbox/11867/add-new-calendly-events-to-wealthbox
   template: https://zapier.com/apps/calendly/integrations/wealthbox/11867/add-new-calendly-events-to-wealthbox
   source: template
+  relationship: ipaas-bridge
   status: pending-generation
   arazzo: null
 - slug: wealthbox-create-wealthbox-crm-contacts-from-new-invitees-created-in-calendly
@@ -42,6 +44,7 @@
   evidence: https://zapier.com/apps/calendly/integrations/wealthbox/336893/create-wealthbox-crm-contacts-from-new-invitees-created-in-calendly
   template: https://zapier.com/apps/calendly/integrations/wealthbox/336893/create-wealthbox-crm-contacts-from-new-invitees-created-in-calendly
   source: template
+  relationship: ipaas-bridge
   status: pending-generation
   arazzo: null
 - slug: wealthbox-add-new-wealthbox-crm-contacts-to-a-mailchimp-list
@@ -56,6 +59,7 @@
   evidence: https://zapier.com/apps/mailchimp/integrations/wealthbox/11853/add-new-wealthbox-crm-contacts-to-a-mailchimp-list
   template: https://zapier.com/apps/mailchimp/integrations/wealthbox/11853/add-new-wealthbox-crm-contacts-to-a-mailchimp-list
   source: template
+  relationship: ipaas-bridge
   status: pending-generation
   arazzo: null
 - slug: wealthbox-create-new-contacts-in-wealthbox-crm-when-bookings-are-scheduled-in-oncehub
@@ -69,6 +73,7 @@
   evidence: https://zapier.com/apps/oncehub/integrations/wealthbox/1596054/create-new-contacts-in-wealthbox-crm-when-bookings-are-scheduled-in-oncehub
   template: https://zapier.com/apps/oncehub/integrations/wealthbox/1596054/create-new-contacts-in-wealthbox-crm-when-bookings-are-scheduled-in-oncehub
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: wealthbox-add-new-mailchimp-subscribers-as-contacts-in-wealthbox-crm
@@ -83,6 +88,7 @@
   evidence: https://zapier.com/apps/mailchimp/integrations/wealthbox/11852/add-new-mailchimp-subscribers-as-contacts-in-wealthbox-crm
   template: https://zapier.com/apps/mailchimp/integrations/wealthbox/11852/add-new-mailchimp-subscribers-as-contacts-in-wealthbox-crm
   source: template
+  relationship: ipaas-bridge
   status: pending-generation
   arazzo: null
 - slug: wealthbox-create-notes-in-wealthbox-crm-for-new-call-log-records-from-ringcentral
@@ -97,6 +103,7 @@
   evidence: https://zapier.com/apps/ringcentral/integrations/wealthbox/255601504/create-notes-in-wealthbox-crm-for-new-call-log-records-from-ringcentral
   template: https://zapier.com/apps/ringcentral/integrations/wealthbox/255601504/create-notes-in-wealthbox-crm-for-new-call-log-records-from-ringcentral
   source: template
+  relationship: ipaas-bridge
   status: pending-generation
   arazzo: null
 - slug: wealthbox-create-wealthbox-crm-contacts-from-new-jotform-submissions
@@ -111,6 +118,7 @@
   evidence: https://zapier.com/apps/jotform/integrations/wealthbox/1258665/create-wealthbox-crm-contacts-from-new-jotform-submissions
   template: https://zapier.com/apps/jotform/integrations/wealthbox/1258665/create-wealthbox-crm-contacts-from-new-jotform-submissions
   source: template
+  relationship: ipaas-bridge
   status: pending-generation
   arazzo: null
 - slug: wealthbox-create-new-wealthbox-crm-notes-from-new-sms-mms-received-in-ringcentral
@@ -125,6 +133,7 @@
   evidence: https://zapier.com/apps/ringcentral/integrations/wealthbox/1733898/create-new-wealthbox-crm-notes-from-new-smsmms-received-in-ringcentral
   template: https://zapier.com/apps/ringcentral/integrations/wealthbox/1733898/create-new-wealthbox-crm-notes-from-new-smsmms-received-in-ringcentral
   source: template
+  relationship: ipaas-bridge
   status: pending-generation
   arazzo: null
 - slug: wealthbox-create-wealthbox-crm-notes-when-docusign-envelope-statuses-are-updated
@@ -139,6 +148,7 @@
   evidence: https://zapier.com/apps/docusign/integrations/wealthbox/1698725/create-wealthbox-crm-notes-when-docusign-envelope-statuses-are-updated
   template: https://zapier.com/apps/docusign/integrations/wealthbox/1698725/create-wealthbox-crm-notes-when-docusign-envelope-statuses-are-updated
   source: template
+  relationship: ipaas-bridge
   status: pending-generation
   arazzo: null
 - slug: wealthbox-create-new-constant-contact-contacts-from-wealthbox-crm-new-contacts
@@ -153,277 +163,7 @@
   evidence: https://zapier.com/apps/constant-contact/integrations/wealthbox/1288177/create-new-constant-contact-contacts-from-wealthbox-crm-new-contacts
   template: https://zapier.com/apps/constant-contact/integrations/wealthbox/1288177/create-new-constant-contact-contacts-from-wealthbox-crm-new-contacts
   source: template
-  status: pending-generation
-  arazzo: null
-- slug: wealthbox-microsoft-outlook
-  label: Microsoft Outlook
-  partner: microsoft-outlook
-  partner_name: Microsoft Outlook
-  category: Calendar
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/microsoft-outlook
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: wealthbox-typeform
-  label: Typeform
-  partner: typeform
-  partner_name: Typeform
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/typeform
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: wealthbox-hubspot
-  label: HubSpot
-  partner: hubspot
-  partner_name: HubSpot
-  category: Marketing Automation
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/hubspot
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: wealthbox-gravity-forms
-  label: Gravity Forms
-  partner: gravity-forms
-  partner_name: Gravity Forms
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/gravity-forms
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: wealthbox-google-forms
-  label: Google Forms
-  partner: google-forms
-  partner_name: Google Forms
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/google-forms
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: wealthbox-zoom
-  label: Zoom
-  partner: zoom
-  partner_name: Zoom
-  category: Video Conferencing
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/zoom
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: wealthbox-activecampaign
-  label: ActiveCampaign
-  partner: activecampaign
-  partner_name: ActiveCampaign
-  category: Marketing Automation
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/activecampaign
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: wealthbox-monday-com
-  label: monday.com
-  partner_name: monday.com
-  category: Project Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/monday
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: wealthbox-airtable
-  label: Airtable
-  partner: airtable
-  partner_name: Airtable
-  category: Databases
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/airtable
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: wealthbox-trello
-  label: Trello
-  partner: trello
-  partner_name: Trello
-  category: Project Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/trello
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: wealthbox-fathom
-  label: Fathom
-  partner_name: Fathom
-  category: AI Meeting Assistants
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/fathom
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: wealthbox-leadconnector
-  label: LeadConnector
-  partner_name: LeadConnector
-  category: Marketing Automation
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/leadconnector
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: wealthbox-microsoft-excel
-  label: Microsoft Excel
-  partner_name: Microsoft Excel
-  category: Microsoft
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/excel
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: wealthbox-dropbox
-  label: Dropbox
-  partner: dropbox
-  partner_name: Dropbox
-  category: File Management & Storage
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/dropbox
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: wealthbox-microsoft-office-365
-  label: Microsoft Office 365
-  partner_name: Microsoft Office 365
-  category: Email
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/office-365
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: wealthbox-google-tasks
-  label: Google Tasks
-  partner: google-tasks
-  partner_name: Google Tasks
-  category: Google
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/google-tasks
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: wealthbox-sharefile
-  label: ShareFile
-  partner: citrix-sharefile
-  partner_name: ShareFile
-  category: Content & Files
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/sharefile
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: wealthbox-todoist
-  label: Todoist
-  partner: todoist
-  partner_name: Todoist
-  category: Task Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/todoist
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: wealthbox-egnyte
-  label: Egnyte
-  partner: egnyte
-  partner_name: Egnyte
-  category: File Management & Storage
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/egnyte
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: wealthbox-formstack
-  label: Formstack
-  partner: formstack
-  partner_name: Formstack
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/formstack
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: wealthbox-google-drive
-  label: Google Drive
-  partner: google-drive
-  partner_name: Google Drive
-  category: File Management & Storage
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/google-drive
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: wealthbox-dialpad
-  label: Dialpad
-  partner: dialpad
-  partner_name: Dialpad
-  category: Phone & SMS
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/dialpad
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: wealthbox-keap
-  label: Keap
-  partner: keap
-  partner_name: Keap
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/wealthbox/integrations/keap
-  source: edge
+  relationship: ipaas-bridge
   status: pending-generation
   arazzo: null
 - slug: wealthbox-addepar
@@ -561,6 +301,60 @@
     detected: '2026-10-18'
   status: not-a-workflow
   arazzo: null
+- slug: wealthbox-dropbox
+  label: Dropbox
+  partner: dropbox
+  partner_name: Dropbox
+  category: Wealth-management CRM integration
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  evidence: https://www.wealthbox.com/integrations/dropbox/
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Dropbox
+    app_slug: dropbox
+    matched_domain: dropbox.com
+    matched_by: domain
+    identity: wikidata Q142539 'Dropbox' P856 https://www.dropbox.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  status: not-a-workflow
+  arazzo: null
+- slug: wealthbox-egnyte
+  label: Egnyte
+  partner: egnyte
+  partner_name: Egnyte
+  category: Wealth-management CRM integration
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  evidence: https://www.wealthbox.com/integrations/egnyte/
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Egnyte
+    app_slug: egnyte
+    matched_domain: egnyte.com
+    matched_by: domain
+    identity: wikidata Q5348136 'Egnyte' P856 http://www.egnyte.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  status: not-a-workflow
+  arazzo: null
 - slug: wealthbox-envestnet
   label: Envestnet
   partner: envestnet
@@ -608,6 +402,33 @@
     matched_domain: evernote.com
     matched_by: domain
     identity: wikidata Q430526 'Evernote' P856 https://evernote.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  status: not-a-workflow
+  arazzo: null
+- slug: wealthbox-formstack
+  label: Formstack
+  partner: formstack
+  partner_name: Formstack
+  category: Wealth-management CRM integration
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  evidence: https://www.wealthbox.com/integrations/formstack/
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Formstack
+    app_slug: formstack
+    matched_domain: formstack.com
+    matched_by: domain
+    identity: wikidata Q16838881 'Formstack' P856 https://www.formstack.com/
     identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
     builder: unknown (not stated in the register)
     signal_note: one edge per (partner, platform); builder unknown, so out of position shares
@@ -689,6 +510,33 @@
     matched_domain: google.com
     matched_by: domain+name-among-holders
     identity: wikidata Q777 'Google Chrome' P856 https://www.google.com/chrome/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-18'
+  status: not-a-workflow
+  arazzo: null
+- slug: wealthbox-google-drive
+  label: Google Drive
+  partner: google-drive
+  partner_name: Google Drive
+  category: Wealth-management CRM integration
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  evidence: https://www.wealthbox.com/integrations/google-drive/
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Google Drive
+    app_slug: google-drive
+    matched_domain: google.com
+    matched_by: domain+name-among-holders
+    identity: wikidata Q9340 'Google Drive' P856 https://drive.google.com/
     identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
     builder: unknown (not stated in the register)
     signal_note: one edge per (partner, platform); builder unknown, so out of position shares
@@ -883,4 +731,247 @@
     sources: true
     builder: Pipedream repo (component)
   status: not-a-workflow
+  arazzo: null
+- slug: wealthbox-microsoft-outlook
+  label: Microsoft Outlook
+  partner: microsoft-outlook
+  partner_name: Microsoft Outlook
+  category: Calendar
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/wealthbox/integrations/microsoft-outlook
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: wealthbox-typeform
+  label: Typeform
+  partner: typeform
+  partner_name: Typeform
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/wealthbox/integrations/typeform
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: wealthbox-hubspot
+  label: HubSpot
+  partner: hubspot
+  partner_name: HubSpot
+  category: Marketing Automation
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/wealthbox/integrations/hubspot
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: wealthbox-gravity-forms
+  label: Gravity Forms
+  partner: gravity-forms
+  partner_name: Gravity Forms
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/wealthbox/integrations/gravity-forms
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: wealthbox-google-forms
+  label: Google Forms
+  partner: google-forms
+  partner_name: Google Forms
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/wealthbox/integrations/google-forms
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: wealthbox-zoom
+  label: Zoom
+  partner: zoom
+  partner_name: Zoom
+  category: Video Conferencing
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/wealthbox/integrations/zoom
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: wealthbox-activecampaign
+  label: ActiveCampaign
+  partner: activecampaign
+  partner_name: ActiveCampaign
+  category: Marketing Automation
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/wealthbox/integrations/activecampaign
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: wealthbox-monday-com
+  label: monday.com
+  partner: monday-com
+  partner_name: monday.com
+  category: Project Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/wealthbox/integrations/monday
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: wealthbox-airtable
+  label: Airtable
+  partner: airtable
+  partner_name: Airtable
+  category: Databases
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/wealthbox/integrations/airtable
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: wealthbox-trello
+  label: Trello
+  partner: trello
+  partner_name: Trello
+  category: Project Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/wealthbox/integrations/trello
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: wealthbox-leadconnector
+  label: LeadConnector
+  partner_name: LeadConnector
+  category: Marketing Automation
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/wealthbox/integrations/leadconnector
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: wealthbox-fathom
+  label: Fathom
+  partner_name: Fathom
+  category: AI Meeting Assistants
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/wealthbox/integrations/fathom
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: wealthbox-microsoft-excel
+  label: Microsoft Excel
+  partner_name: Microsoft Excel
+  category: Microsoft
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/wealthbox/integrations/excel
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: wealthbox-microsoft-office-365
+  label: Microsoft Office 365
+  partner_name: Microsoft Office 365
+  category: Email
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/wealthbox/integrations/office-365
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: wealthbox-google-tasks
+  label: Google Tasks
+  partner: google-tasks
+  partner_name: Google Tasks
+  category: Google
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/wealthbox/integrations/google-tasks
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: wealthbox-sharefile
+  label: ShareFile
+  partner: citrix-sharefile
+  partner_name: ShareFile
+  category: Content & Files
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/wealthbox/integrations/sharefile
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: wealthbox-todoist
+  label: Todoist
+  partner: todoist
+  partner_name: Todoist
+  category: Task Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/wealthbox/integrations/todoist
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: wealthbox-keap
+  label: Keap
+  partner: keap
+  partner_name: Keap
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/wealthbox/integrations/keap
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: wealthbox-dialpad
+  label: Dialpad
+  partner: dialpad
+  partner_name: Dialpad
+  category: Phone & SMS
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/wealthbox/integrations/dialpad
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
   arazzo: null
