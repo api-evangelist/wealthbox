@@ -426,55 +426,31 @@
   source: edge
   status: pending-generation
   arazzo: null
-- slug: wealthbox-zapier
-  label: Zapier
-  partner: zapier
-  partner_name: Zapier
+- slug: wealthbox-addepar
+  label: Addepar
+  partner: addepar
+  partner_name: Addepar
+  category: Wealth-management CRM integration
   type: marketplace
-  marketplace: zapier-directory
-  channel: ipaas-listing
-  evidence: https://zapier.com/apps/wealthbox/integrations
+  marketplace: wealthbox-integrations
+  channel: unknown
+  evidence: https://www.wealthbox.com/integrations/addepar/
   source: edge
-  relationship: ipaas-bridge
+  relationship: platform-app
   contract_reference:
-    register: Zapier app directory (zapier.com/api/v4/apps)
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
     spec_file: null
-    role: ipaas-connector:zapier
-    registered_name: Wealthbox CRM
-    matched_domain: wealthbox.com
+    role: wealthbox-integration
+    registered_name: Addepar
+    app_slug: addepar
+    matched_domain: addepar.com
     matched_by: domain
-    detected_by: sweep-workflow-automation.py
-    detected: '2026-10-15'
-    signal_note: one edge per (provider, platform); actions, triggers and usage counts are context, never read
-    app_slug: wealthbox
-    beta: false
-    builder: unknown (not in the directory record)
-  status: not-a-workflow
-  arazzo: null
-- slug: wealthbox-pipedream
-  label: Pipedream
-  partner: pipedream
-  partner_name: Pipedream
-  type: marketplace
-  marketplace: pipedream-components
-  channel: open-source-node
-  evidence: https://github.com/PipedreamHQ/pipedream/tree/94800dd6de6640b942c65ea7ee655f71ac56d438/components/wealthbox
-  source: edge
-  relationship: ipaas-bridge
-  contract_reference:
-    register: Pipedream components (PipedreamHQ/pipedream components/)
-    spec_file: null
-    role: ipaas-connector:pipedream
-    registered_name: wealthbox
-    matched_domain: wealthbox.com
-    matched_by: domain
-    detected_by: sweep-workflow-automation.py
-    detected: '2026-10-15'
-    signal_note: one edge per (provider, platform); actions, triggers and usage counts are context, never read
-    app_slug: wealthbox
-    actions: true
-    sources: true
-    builder: Pipedream repo (component)
+    identity: wikidata Q16974220 'Addepar' P856 https://addepar.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-19'
   status: not-a-workflow
   arazzo: null
 - slug: wealthbox-anthropic
@@ -502,6 +478,33 @@
     signal_note: one edge per (partner, platform); builder unknown, so out of position shares
     detected_by: sweep-asset-management.py
     detected: '2026-10-18'
+  status: not-a-workflow
+  arazzo: null
+- slug: wealthbox-apple-calendar
+  label: Apple Calendar
+  partner: apple
+  partner_name: Apple Calendar
+  category: Wealth-management CRM integration
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  evidence: https://www.wealthbox.com/integrations/apple-calendar/
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Apple Calendar
+    app_slug: apple-calendar
+    matched_domain: apple.com
+    matched_by: domain+name-among-holders
+    identity: wikidata Q306184 'Calendar' P856 https://support.apple.com/guide/calendar/welcome/mac
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-19'
   status: not-a-workflow
   arazzo: null
 - slug: wealthbox-charles-schwab
@@ -691,5 +694,193 @@
     signal_note: one edge per (partner, platform); builder unknown, so out of position shares
     detected_by: sweep-asset-management.py
     detected: '2026-10-18'
+  status: not-a-workflow
+  arazzo: null
+- slug: wealthbox-mailchimp
+  label: MailChimp
+  partner: mailchimp
+  partner_name: MailChimp
+  category: Wealth-management CRM integration
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  evidence: https://www.wealthbox.com/integrations/mailchimp/
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: MailChimp
+    app_slug: mailchimp
+    matched_domain: mailchimp.com
+    matched_by: domain+name-among-holders
+    identity: wikidata Q6735673 'Mailchimp' P856 https://mailchimp.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-19'
+  status: not-a-workflow
+  arazzo: null
+- slug: wealthbox-smartasset
+  label: SmartAsset
+  partner: smartasset
+  partner_name: SmartAsset
+  category: Wealth-management CRM integration
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  evidence: https://www.wealthbox.com/integrations/smartasset/
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: SmartAsset
+    app_slug: smartasset
+    matched_domain: smartasset.com
+    matched_by: domain
+    identity: wikidata Q85801641 'SmartAsset' P856 http://smartasset.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-19'
+  status: not-a-workflow
+  arazzo: null
+- slug: wealthbox-surveymonkey
+  label: SurveyMonkey
+  partner: surveymonkey
+  partner_name: SurveyMonkey
+  category: Wealth-management CRM integration
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  evidence: https://www.wealthbox.com/integrations/surveymonkey/
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: SurveyMonkey
+    app_slug: surveymonkey
+    matched_domain: surveymonkey.com
+    matched_by: domain
+    identity: wikidata Q162852 'SurveyMonkey' P856 https://www.surveymonkey.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-19'
+  status: not-a-workflow
+  arazzo: null
+- slug: wealthbox-twilio
+  label: Twilio
+  partner: twilio
+  partner_name: Twilio
+  category: Wealth-management CRM integration
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  evidence: https://www.wealthbox.com/integrations/twilio/
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Twilio
+    app_slug: twilio
+    matched_domain: twilio.com
+    matched_by: domain
+    identity: wikidata Q7858039 'Twilio' P856 http://www.twilio.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-19'
+  status: not-a-workflow
+  arazzo: null
+- slug: wealthbox-wufoo
+  label: Wufoo
+  partner: wufoo
+  partner_name: Wufoo
+  category: Wealth-management CRM integration
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  evidence: https://www.wealthbox.com/integrations/wufoo/
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Wufoo
+    app_slug: wufoo
+    matched_domain: wufoo.com
+    matched_by: domain
+    identity: wikidata Q16968003 'Wufoo' P856 http://wufoo.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-19'
+  status: not-a-workflow
+  arazzo: null
+- slug: wealthbox-zapier
+  label: Zapier
+  partner: zapier
+  partner_name: Zapier
+  category: Wealth-management CRM integration
+  type: marketplace
+  marketplace: wealthbox-integrations
+  channel: unknown
+  evidence: https://www.wealthbox.com/integrations/zapier/
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Wealthbox integrations (wealthbox.com/wp-json/wp/v2/integrations)
+    spec_file: null
+    role: wealthbox-integration
+    registered_name: Zapier
+    app_slug: zapier
+    matched_domain: zapier.com
+    matched_by: domain
+    identity: wikidata Q27150165 'Zapier' P856 http://zapier.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    builder: unknown (not stated in the register)
+    signal_note: one edge per (partner, platform); builder unknown, so out of position shares
+    detected_by: sweep-asset-management.py
+    detected: '2026-10-19'
+  status: not-a-workflow
+  arazzo: null
+- slug: wealthbox-pipedream
+  label: Pipedream
+  partner: pipedream
+  partner_name: Pipedream
+  type: marketplace
+  marketplace: pipedream-components
+  channel: open-source-node
+  evidence: https://github.com/PipedreamHQ/pipedream/tree/d5872355ef27b4efa769f05352f2820c299a456e/components/wealthbox
+  source: edge
+  relationship: ipaas-bridge
+  contract_reference:
+    register: Pipedream components (PipedreamHQ/pipedream components/)
+    spec_file: null
+    role: ipaas-connector:pipedream
+    registered_name: wealthbox
+    matched_domain: wealthbox.com
+    matched_by: domain
+    detected_by: sweep-workflow-automation.py
+    detected: '2026-10-15'
+    signal_note: one edge per (provider, platform); actions, triggers and usage counts are context, never read
+    app_slug: wealthbox
+    actions: true
+    sources: true
+    builder: Pipedream repo (component)
   status: not-a-workflow
   arazzo: null
