@@ -10,13 +10,10 @@
     },
     {
       "source": "https://app.crmworkspace.com/signup",
-      "feed_url": "https://app.crmworkspace.com/signup",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "error": "HTTPError"
     }
   ],
-  "fetched": "2026-10-10T13:15:00Z",
+  "fetched": "2026-10-17T14:53:57Z",
   "post_count": 34,
   "feed_nature": "undetermined",
   "feed_nature_basis": null,
