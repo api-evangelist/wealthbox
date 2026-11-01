@@ -1,4 +1,4 @@
-# Wealthbox (wealthbox)
+# Wealthbox
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,58 +66,126 @@
 
 Wealthbox is a CRM platform built specifically for financial advisors, offering contact management, task workflows, opportunities, projects, and collaborative team features tailored to wealth management practices. The platform's REST API supports both personal Access Tokens and OAuth 2.0 for integrations, exposing CRUD endpoints for contacts, tasks, events, notes, workflows, custom fields, and activity streams under the api.crmworkspace.com base URL.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/apis.yml)
+**Areas:** CRM · Financial Advisors · Wealth Management · Contact Management · Workflow Automation · Software-as-a-Service
 
-## Scope
+## Wealthbox on APIs.io
 
-- **Type:** Index
+Everything profiled for Wealthbox is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/wealthbox/](https://apis.io/providers/wealthbox/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (11)
 
-- CRM
-- Financial Advisors
-- Wealth Management
-- Contact Management
-- Workflow Automation
-- SaaS
+- [Wealthbox CRM API](https://apis.io/apis/wealthbox/crm-api/) — REST API for managing contacts, tasks, events, opportunities, projects, notes, workflows, custom fields, teams, and activity streams in Wealthbox CRM.…
+- [Wealthbox Activity API](https://apis.io/apis/wealthbox/wealthbox-activity-api/) — The Activity API from Wealthbox — 1 operation(s) for activity.
+- [Wealthbox Contacts API](https://apis.io/apis/wealthbox/wealthbox-contacts-api/) — The Contacts API from Wealthbox — 2 operation(s) for contacts.
+- [Wealthbox Events API](https://apis.io/apis/wealthbox/wealthbox-events-api/) — The Events API from Wealthbox — 1 operation(s) for events.
+- [Wealthbox Notes API](https://apis.io/apis/wealthbox/wealthbox-notes-api/) — The Notes API from Wealthbox — 1 operation(s) for notes.
+- [Wealthbox Opportunities API](https://apis.io/apis/wealthbox/wealthbox-opportunities-api/) — The Opportunities API from Wealthbox — 1 operation(s) for opportunities.
+- [Wealthbox Profile API](https://apis.io/apis/wealthbox/wealthbox-profile-api/) — The Profile API from Wealthbox — 1 operation(s) for profile.
+- [Wealthbox Tasks API](https://apis.io/apis/wealthbox/wealthbox-tasks-api/) — The Tasks API from Wealthbox — 2 operation(s) for tasks.
+- [Wealthbox Teams API](https://apis.io/apis/wealthbox/wealthbox-teams-api/) — The Teams API from Wealthbox — 1 operation(s) for teams.
+- [Wealthbox Users API](https://apis.io/apis/wealthbox/wealthbox-users-api/) — The Users API from Wealthbox — 1 operation(s) for users.
+- [Wealthbox Workflows API](https://apis.io/apis/wealthbox/wealthbox-workflows-api/) — The Workflows API from Wealthbox — 2 operation(s) for workflows.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-05-11
-- **Modified:** 2026-05-11
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Agentic access (1)
 
-### Wealthbox CRM API
+Which operations an agent can call, which act, and which need a human in the loop.
 
-REST API for managing contacts, tasks, events, opportunities, projects, notes, workflows, custom fields, teams, and activity streams in Wealthbox CRM. Supports personal Access Tokens (ACCESS_TOKEN header) or OAuth 2.0 authorization code flow.
+- [Wealthbox Agentic Access](https://apis.io/agentic-access/wealthbox/wealthbox-agentic-access/)
 
-- **Human URL:** [https://dev.wealthbox.com](https://dev.wealthbox.com)
-- **Base URL:** `https://api.crmworkspace.com`
+#### Collections (11)
 
-#### Tags
+Postman and Open Collection request collections.
 
-- CRM
-- Financial Advisors
-- Wealth Management
+- [Wealthbox CRM API](https://apis.io/collections/wealthbox/open-wealthbox/)
+- [Wealthbox CRM Activity API](https://apis.io/collections/wealthbox/open-wealthbox-activity-api/)
+- [Wealthbox CRM Activity Contacts API](https://apis.io/collections/wealthbox/open-wealthbox-contacts-api/)
+- [Wealthbox CRM Activity Events API](https://apis.io/collections/wealthbox/open-wealthbox-events-api/)
+- [Wealthbox CRM Activity Notes API](https://apis.io/collections/wealthbox/open-wealthbox-notes-api/)
+- [Wealthbox CRM Activity Opportunities API](https://apis.io/collections/wealthbox/open-wealthbox-opportunities-api/)
+- [Wealthbox CRM Activity Profile API](https://apis.io/collections/wealthbox/open-wealthbox-profile-api/)
+- [Wealthbox CRM Activity Tasks API](https://apis.io/collections/wealthbox/open-wealthbox-tasks-api/)
+- [Wealthbox CRM Activity Teams API](https://apis.io/collections/wealthbox/open-wealthbox-teams-api/)
+- [Wealthbox CRM Activity Users API](https://apis.io/collections/wealthbox/open-wealthbox-users-api/)
+- [Wealthbox CRM Activity Workflows API](https://apis.io/collections/wealthbox/open-wealthbox-workflows-api/)
 
-#### Properties
+#### Security (4)
 
-- [Documentation](https://dev.wealthbox.com)
-- [Authentication](https://dev.wealthbox.com/#authentication)
-- [Postman Collection](collections/wealthbox.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/wealthbox.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+Authentication, trust centre, and vulnerability disclosure.
 
-## Common Properties
+- [Wealthbox Authentication](https://apis.io/security/wealthbox/wealthbox-authentication/)
+- [Wealthbox Domain Security](https://apis.io/security/wealthbox/wealthbox-domain-security/)
+- [Wealthbox Trust Center](https://apis.io/security/wealthbox/wealthbox-trust-center/)
+- [Wealthbox Vulnerability Disclosure](https://apis.io/security/wealthbox/wealthbox-vulnerability-disclosure/)
 
-- [GitHub Organization](https://github.com/starburstlabs)
-- [LinkedIn](https://www.linkedin.com/company/wealthboxcrm)
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Wealthbox Scopes](https://apis.io/scopes/wealthbox/wealthbox-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://www.wealthbox.com)
 - [Documentation](https://dev.wealthbox.com)
 - [Pricing](https://www.wealthbox.com/pricing)
-- [Sign Up](https://app.crmworkspace.com/signup)
+- [Blog](https://www.wealthbox.com/blog/feed/)
+- [GitHub](https://github.com/starburstlabs)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 30.9** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 48.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 17.9 |
+| Access clarity | 31.6 |
+
+**Agent readiness 19.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | documented (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 32.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/wealthbox/](https://apis.io/providers/wealthbox/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Wealthbox: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/wealthbox/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
